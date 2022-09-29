@@ -1,0 +1,11 @@
+* {
+    margin: 2px;
+}
+
+body {
+    font-size: 20px;
+    color: white;
+    height: 100vh;
+    text-align: center;
+}
+
