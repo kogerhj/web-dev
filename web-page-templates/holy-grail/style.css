@@ -47,6 +47,7 @@ body {
 .article {
     background-color: #e3f6f5;
     padding-top: 3rem;
+    flex: 3 3 ;
 }
 
 .right-side {
