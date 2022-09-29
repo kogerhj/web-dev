@@ -12,6 +12,7 @@ body {
 }
 
 .header {
+    color: white;
     background-color: #272343;
     padding: 3rem 0;
 }
@@ -40,6 +41,7 @@ body {
 }
 
 .footer {
+    color: white;
     background-color: #272343;
     padding: 3rem 0;
 }
