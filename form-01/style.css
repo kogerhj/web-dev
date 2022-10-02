@@ -39,14 +39,25 @@ h2 {
 }
 
 .form-container {
-    border: 1px solid red;
+   background-color: #8ed6ff;
 }
 
 form {
     padding: 2rem;
-    border: 1px solid blue;
+    background-color:#ffcece
 }
 
 ul {
+    margin: auto;
     list-style: none;
+    background-color: #ffe3b0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+li {
+    margin-left: 2rem;
+    padding: 0.5rem 0;
 }
