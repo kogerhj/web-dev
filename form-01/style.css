@@ -8,3 +8,16 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+main {
+   display: flex;
+}
+
+img {
+    height: 100vh;
+    width: 40vw;
+}
+
+.form-container {
+    border: 1px solid red;
+    flex: auto;
+}
