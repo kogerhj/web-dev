@@ -39,22 +39,22 @@ h2 {
 }
 
 .form-container {
-   background-color: #8ed6ff;
+   background-color: #f4f6f7;
 }
 
 form {
     padding: 2rem;
-    background-color:#ffcece
 }
 
 ul {
     margin: auto;
     list-style: none;
-    background-color: #ffe3b0;
+    background-color:#ffc1c8;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 50%;
+    border-radius: 3px;
 }
 
 li {
@@ -64,4 +64,8 @@ li {
 
 ul li:last-child {
     padding-bottom: 1rem;
+}
+
+input {
+    margin-top: 0.5rem;
 }
