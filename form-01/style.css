@@ -2,6 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+
+.first-color { 
+	background: #ffcece; 
+}
+	
+.second-color { 
+	background: #ffc1c8; 
+}
+
+.third-color { 
+	background: #ffe3b0; 
+}
+
+.fourth-color { 
+	background: #8ed6ff; 
 }
 
 body {
@@ -25,3 +42,11 @@ h2 {
     border: 1px solid red;
 }
 
+form {
+    padding: 2rem;
+    border: 1px solid blue;
+}
+
+ul {
+    list-style: none;
+}
