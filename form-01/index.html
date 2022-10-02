@@ -15,17 +15,30 @@
 
 <body>
     <main>
-        <img src="/home/kogerhj/web-dev/form-01/wilmer-martinez-uqQLthPDCbg-unsplash.jpg"
-            alt="picture of street at nightime">
+        <div class="image-container">
+            <img src="/home/kogerhj/web-dev/form-01/wilmer-martinez-uqQLthPDCbg-unsplash.jpg"
+                alt="picture of street at nightime">
+                <!-- <div class="banner"></div> -->
+        </div>
         <div class="form-container">
             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua</h2>
             <form action="post">
                 <ul>
                     <li>
-                        <label for="name">Name</label>
+                        <label for="-first-name">First Name</label>
                         <br>
-                        <input type="text" id="name" name="name">
+                        <input type="text" id="first-name" name="first-name">
+                    </li>
+                    <li>
+                        <label for="last-name">Last Name</label>
+                        <br>
+                        <input type="text" id="last-name" name="last-name">
+                    </li>
+                    <li>
+                        <label for="phone">Phone Numer</label>
+                        <br>
+                        <input type="text" id="phone" name="phone">
                     </li>
                     <li>
                         <label for="email">Email</label>
@@ -42,6 +55,7 @@
                         <br>
                         <input type="text" name="repeat-password" id="repeat-password">
                     </li>
+                    <!-- <button>Create Account</button> -->
                 </ul>
             </form>
         </div>
