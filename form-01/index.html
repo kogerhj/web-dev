@@ -19,7 +19,7 @@
         <div class="image-container">
             <img class="background-image" src="/home/kogerhj/web-dev/form-01/wilmer-martinez-uqQLthPDCbg-unsplash.jpg"
                 alt="picture of street at nightime">
-        
+
             <div class="banner">
                 <img src="odin-lined.png" alt="logo">
             </div>
@@ -42,7 +42,8 @@
                     <li>
                         <label for="phone">*Phone Numer</label>
                         <br>
-                        <input type="text" id="phone" name="phone" required>
+                        <input type="text" id="phone" name="phone" required pattern="(\d{3}-\d{3}-\d{4})"
+                            title="Please use the following format: 555-555-5555">
                     </li>
                     <li>
                         <label for="email">*Email</label>
