@@ -38,7 +38,7 @@ main {
 .banner {
     display: flex;
     justify-content: space-around;
-    padding: 00.5rem;
+    padding: 0.5rem;
     bottom: 60%;
     position: relative;
     width: 100%;
@@ -105,4 +105,12 @@ button {
     border-radius: 5px;
 
  
+}
+
+footer {
+    font-size: 0.8rem;
+    position: absolute;
+    color: #ffffff;
+    bottom: 3%;
+    left: 12%;
 }
