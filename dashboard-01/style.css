@@ -7,19 +7,19 @@
 /*Colors for reference - probably won't use this palette*/
 
 .first-color { 
-	background: #57385c; 
+	background: #f0fdfa; 
 }
 	
 .second-color { 
-	background: #a75265; 
+	background: #a5f3fc; 
 }
 
 .third-color { 
-	background: #ec7263; 
+	background: #22d3ee; 
 }
 
 .fourth-color { 
-	background: #febe7e; 
+	background: #155e75; 
 }
 
 
@@ -30,7 +30,7 @@
 }
 
 .announcements {
-    background-color: aqua;
+    background-color:#f0fdfa
 }
 
 
@@ -38,7 +38,7 @@
 .card {
     padding: 1rem;
     text-align: start;
-    background-color: white;
+    background-color: #f0fdfa;
     border-radius: 4px;
 }
 
@@ -48,7 +48,7 @@ p:first-child {
 }
 
 .sidebar {
-    background-color: #57385c;
+    background-color: #22d3ee;
     grid-column: 1;
     grid-row: 1 / 3;
     display: flex;
@@ -71,7 +71,7 @@ li {
 }
 
 .header {
-    background-color: #febe7e;
+    background-color: #a5f3fc;
     grid-column: 2 / 4;
 }
 
@@ -81,7 +81,7 @@ li {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-template-rows: repeat(3, 200px);
     gap: 20px;
-    background-color: #a75265;
+    background-color: #155e75;
     grid-column: 2 / 3;
 }
 
