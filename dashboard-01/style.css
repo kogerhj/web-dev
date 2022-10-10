@@ -29,6 +29,10 @@
     grid-template-rows: 100px 1fr;
 }
 
+.announcements {
+    background-color: aqua;
+}
+
 
 
 .card {
@@ -55,6 +59,8 @@ p:first-child {
 
 .article {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(3, 1fr);
     gap: 10px;
     background-color: #a75265;
     grid-column: 2;
