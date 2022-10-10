@@ -1,6 +1,7 @@
 *, ::after, ::before {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Rubik', sans-serif;
 }
 
 /*Colors for reference - probably won't use this palette*/
