@@ -58,6 +58,17 @@ p:first-child {
     align-items: center;
 }
 
+.sidebar > ul {
+    width: 100%;
+}
+
+.sidebar > ul > li {
+    padding: 0.3rem;
+}
+
+li {
+    list-style: none;
+}
 
 .header {
     background-color: #febe7e;
