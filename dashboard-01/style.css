@@ -1,0 +1,35 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*Colors for reference - probably won't use this palette*/
+
+.first-color { 
+	background: #57385c; 
+}
+	
+.second-color { 
+	background: #a75265; 
+}
+
+.third-color { 
+	background: #ec7263; 
+}
+
+.fourth-color { 
+	background: #febe7e; 
+}
+
+
+.sidebar {
+    background-color: #57385c;
+}
+
+.header {
+    background-color: #febe7e;
+}
+
+.article {
+    background-color: #a75265;
+}
