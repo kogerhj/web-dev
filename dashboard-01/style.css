@@ -32,7 +32,14 @@
 
 
 .card {
+    padding: 1rem;
+    text-align: start;
     background-color: white;
+}
+
+p:first-child {
+    text-align: center;
+    font-weight: 500;
 }
 
 .sidebar {
