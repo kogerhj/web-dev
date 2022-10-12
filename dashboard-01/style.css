@@ -63,7 +63,10 @@ p:first-child {
 }
 
 .sidebar > ul > li {
+    display: flex;
     padding: 0.3rem;
+    gap: 1.5rem;
+    align-items: center;
 }
 
 li {
