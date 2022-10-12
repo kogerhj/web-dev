@@ -58,6 +58,11 @@ p:first-child {
     align-items: center;
 }
 
+.logo {
+    padding-top: 1rem;
+}
+
+
 .sidebar > ul {
     width: 100%;
 }
@@ -86,5 +91,8 @@ li {
     gap: 20px;
     background-color: #155e75;
     grid-column: 2 / 3;
+}
+.material-icons {
+    font-size: 1.3rem;
 }
 
