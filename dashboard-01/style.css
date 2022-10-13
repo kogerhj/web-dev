@@ -102,8 +102,10 @@ li {
 }
 
 .header-btn {
-    
-    width: 80px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    width: 100px;
     height: 30px;
     border-radius: 10px;
     background-color: #155e75;
@@ -129,9 +131,5 @@ input[type=text] {
 
 .material-icons {
     font-size: 1.3rem;
-}
-
-button {
-    cursor: pointer;
 }
 
