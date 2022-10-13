@@ -88,8 +88,10 @@ li {
 }
 
 .header > form {
-grid-column: 1;
-grid-row: 1;
+    margin-left: 2rem;
+    align-self: center;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .header > ul {
@@ -109,8 +111,9 @@ grid-row: 1;
 }
 
 input[type=text] {
-    align-self: center;
-    /* margin: 10px 0; */
+    margin-left: 1rem;
+    width: 75%;
+    border: none;
     font-size: 1.5rem;
 }
 
@@ -126,5 +129,9 @@ input[type=text] {
 
 .material-icons {
     font-size: 1.3rem;
+}
+
+button {
+    cursor: pointer;
 }
 
