@@ -119,6 +119,17 @@ li {
     grid-row: 2;
 }
 
+.image-header {
+    display: grid;
+    grid-template-columns: repeat(2, 50px) 1fr;
+    justify-items: start;
+    align-items: center;
+}
+
+.image-header > img {
+    height: 50%;
+}
+
 .header > ul {
     margin: 0 1rem;
     align-items: center;
