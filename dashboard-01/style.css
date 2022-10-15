@@ -94,6 +94,31 @@ li {
     grid-row: 1;
 }
 
+.image-greeting {
+    margin-left: 1.5rem;
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column: 1;
+    grid-row: 2;
+    justify-items: start;
+}
+
+.image-greeting > img {
+    align-self:auto;
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
+
+.image-greeting > p {
+    align-self: center;
+    grid-row: 1;
+}
+
+.image-greeting > h2 {
+    grid-row: 2;
+}
+
 .header > ul {
     margin: 0 1rem;
     align-items: center;
