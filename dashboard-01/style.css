@@ -4,25 +4,6 @@
     font-family: 'Rubik', sans-serif;
 }
 
-/*Colors for reference - probably won't use this palette*/
-
-.first-color { 
-	background: #f0fdfa; 
-}
-	
-.second-color { 
-	background: #a5f3fc; 
-}
-
-.third-color { 
-	background: #22d3ee; 
-}
-
-.fourth-color { 
-	background: #155e75; 
-}
-
-
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
