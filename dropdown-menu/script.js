@@ -9,3 +9,9 @@ dropdownButton.addEventListener('click', (e) => {
     e.stopPropagation()
     toggleDropdown()
 })
+
+document.documentElement.addEventListener('click', () => {
+    if (dropdownMenu.classList.contains('show')) {
+        toggleDropdown()
+    }
+})
