@@ -34,5 +34,5 @@ function dragLeave(e) {
 }
 
 function drop(e) {
-    e.target.classList.remove('drag-over')
+    
 }
