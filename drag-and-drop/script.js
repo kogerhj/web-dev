@@ -33,5 +33,10 @@ function dragLeave(e) {
 }
 
 function drop(e) {
-    
+    const ballId = e.dataTransfer.getData('text/plain')
+    const draggable = document.getElementById(ballId)
+
+    e.target.appendChild(draggable)
+
+    draggable.classList.remove('hide')
 }
