@@ -20,10 +20,12 @@ ballContainers.forEach(container => {
 })
 
 function dragEnter(e) {
+    e.preventDefault()
     e.target.classList.add('drag-over')
 }
 
 function drageOver(e) {
+    e.preventDefault()
     e.target.classList.add('drag-over')
 }
 
