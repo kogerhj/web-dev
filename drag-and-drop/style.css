@@ -32,6 +32,7 @@
 
 .ball {
     margin: auto;
+    border-radius: 50%;
     background-color: yellow;
     height: 50px;
     width: 50px;
