@@ -41,3 +41,8 @@
 .hide {
     display: none;
 }
+
+.drag-over {
+    scale: 1.05;
+    transition: 250ms;
+}
